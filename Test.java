@@ -5,13 +5,13 @@ public class Test {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
 		ArrayList<Point>points=new ArrayList<Point>();
-		System.out.println("alan belirleyiniz örn: 5 5");
-		// bu alan baþlangýç noktasý 0,0 olacak en uç noktasý gireceðimiz nokta olacak bu noktalarý kapsayacak bir alana sahip olacaðýz
-		// 5,5 girildiðinde 5 birim yatay birey dikey uzunluðuna sahip bir kare þeklinde alana sahip olacaðýz
+		System.out.println("alan belirleyiniz Ã¶rn: 5 5");
+		// bu alan baslangic noktasi 0,0 olacak en uc noktasi girecegimiz nokta olacak bu noktalari kapsayacak bir alana sahip olacagÄ±z
+		// 5,5 girildiginde 5 birim yatay e birim dikey uzunluguna sahip bir kare ÅŸeklinde alana sahip olacagiz
 		int alanX=scan.nextInt();
 		int alanY=scan.nextInt();	
-		System.out.println("uzay gezgincileriln koordinatlarýný gireceksiniz burada istediðiniz kadar uzay gezgincisi oluþturabilirsiniz"
-				+ "ancak eðer gezginci koordinatlarý girmeyi sonladýrmak istiyorsanýz yeni bir gezginci koordinatlarý girmeden  -1 yazýp entera basýn");
+		System.out.println("uzay gezgincileriln koordinatlarini gireceksiniz burada istediginiz kadar uzay gezgincisi olusturabilirsiniz"
+				+ "ancak eger gezginci koordinatlari girmeyi sonladÄ±rmak istiyorsanÄ±z yeni bir gezginci koordinatlarÄ± girmeden  -1 yazÄ±p entera basÄ±n");
 		int x=scan.nextInt();
 		while(x!=-1)
 		{
