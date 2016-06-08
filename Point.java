@@ -4,15 +4,15 @@ int x;
 int y;
 int lastX;
 int lastY;
-int yonSay;//burada kuzey için 4 , doğu için 3 ,güney için 2 batı için 1 olacak bu rakamlar yöndeğiştirmede kullanılcak 
-//daha sonra yazarken yönlerin harfleri yazılacak
-char yon;// bu kuzey güney doğu batının başharfleri//;
+int yonSay;//burada kuzey icin 4 , dogu icin 3 ,guney icin 2 batÄ± icin 1 olacak bu rakamlar yondegistirmede kullanÄ±lcak 
+//daha sonra yazarken yonlerin harfleri yazÄ±lacak
+char yon;// bu kuzey gÃ¼ney dogu batÄ±nÄ±n basharfleri//;
 public Point(int x,int y,char yon)
 {
 	this.x=x;
 	this.y=y;
 this.yon=yon;
-setYon();//burada yon değişkeninden bir yonSay değişkeni oluşturuyoruz
+setYon();//burada yon degiskeninden bir yonSay degiskeni oluÅŸturuyoruz
 	}
 public void MovePoint()
 {
@@ -79,18 +79,18 @@ public void setLastXandY(int x ,int y)
 lastX=x;
 lastY=y;
 }
-public void kontrolX(int x,boolean b)// bu method bu noktaya ait x koordinatını bir artırıyor veya bir birim azaltıyor.
+public void kontrolX(int x,boolean b)// bu method bu noktaya ait x koordinatÄ±nÄ± bir artÄ±rÄ±yor veya bir birim azaltiyor.
 {
-	// bu method iki değer alıyor birincisi x değeri diğeri de bi boolean değer alıyor eğer bu boolean değer false ise biz anlıyoruz x değerini bir artırmak gerekiyor
-	//eğer bu değer true ise x değerini 1 azaltmak gerektiğini anlıyoruz.
+	// bu method iki deger alÄ±yor birincisi x degeri diÄŸeri de bir boolean deÄŸer aliyor eger bu boolean deger false ise biz anliyoruz x degerini bir artirmak gerekiyor
+	//eger bu deger true ise x degerini 1 azaltmak gerektigini anliyoruz.
 	if(b==false)
 {
-if((x+1)>lastX)System.out.println("belirlediğiniz alanı aştınız ve eski yönde durdu");
+if((x+1)>lastX)System.out.println("belirlediginiz alanÄ± astÄ±nÄ±z ve eski yonde durdu");
 else setX(x+1);
 }
 	else if(b==true)
 	{
-		if((x-1)<0)System.out.println("belirlediğiniz alanı aştınız ve eski yönde durdu");
+		if((x-1)<0)System.out.println("belirlediginiz alani astiniz ve eski yonde durdu");
 		else setX(x-1);
 	}
 }
@@ -98,12 +98,12 @@ public void kontrolY(int y,boolean b)
 {
 	if(b==false)
 {
-if((y+1)>lastY)System.out.println("belirlediğiniz alanı aştınız ve eski yönde durdu");
+if((y+1)>lastY)System.out.println("belirlediginiz alani astiniz ve eski yonde durdu");
 else setY(y+1);
 }
 	else if(b==true)
 	{
-		if((y-1)<0)System.out.println("belirlediğiniz alanı aştınız ve eski yönde durdu"); 
+		if((y-1)<0)System.out.println("belirlediginiz alani astiniz ve eski yonde durdu"); 
 		else setY(y-1);
 	}
 }
