@@ -4,7 +4,7 @@ int x;
 int y;
 int lastX;
 int lastY;
-int yonSay;//burada kuzey icin 4 , dogu icin 3 ,guney icin 2 batı icin 1 olacak bu rakamlar yondegistirmede kullanılcak 
+int yonSay;//burada kuzey icin 4 , dogu icin 3 ,guney icin 2 bati icin 1 olacak bu rakamlar yon degistirmede kullanilacak 
 //daha sonra yazarken yonlerin harfleri yazılacak
 char yon;// bu kuzey güney dogu batının basharfleri//;
 public Point(int x,int y,char yon)
